@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#shape {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    position: relative;
+    box-shadow: 0 0 20px rgba(151, 151, 151, 0.5);
+    display: none;
+}
+#shape:hover {
+    opacity: 0.8
+}
+
+.content button{
+    float: right;
+    margin-right: 50px;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.reactionTime{
+    float: left;
+    margin-left: 50px;
+    background-color: navy;
+    padding: 10px;
+    border: 1px solid green;
+}
